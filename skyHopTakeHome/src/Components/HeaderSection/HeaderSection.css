@@ -1,0 +1,40 @@
+.headerSectionRoot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+.exitButtonContainer {
+    display: flex;
+    margin-top: 2%;
+    width: 100%;
+    margin-left: 5%;
+
+}
+.exitButton {
+    display: flex;
+    justify-content: center;
+    background-color: #243d6b;
+    color: #fff;
+    width: 3rem;
+    height: 2rem;
+    font-size: 1.5rem;
+    border-radius: 20%;
+    cursor: pointer;
+}
+.HeaderContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: #243d6b;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.1rem;
+    font-weight: 700;
+}
+.Header {
+    border-bottom: 2px solid #e8e8e8;
+}
